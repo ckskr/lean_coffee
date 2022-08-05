@@ -1,16 +1,14 @@
 import Head from "next/head";
-import AddCardButton from "../src/components/AddCardButton";
 import StyledWrapper from "../src/components/StyledWrapper";
-import Form from "./form";
 
-export default function Home() {
+export default function Form() {
   return (
     <StyledWrapper>
       <Head>
-        <title>Lean Coffee</title>
+        <title>Form</title>
         <meta name="description" content="Lean Coffee Board by me" />
       </Head>
-      <AddCardButton />
+      <h1>Form page</h1>
     </StyledWrapper>
   );
 }
